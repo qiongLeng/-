@@ -6,6 +6,7 @@ oled_show_t show;
 DHT11_Data_TypeDef DHT11_data;
 char PUBLIS_BUF[256];
 
+//可以去云平台找到
 const char devPubTopic[] = "$sys/xX6gucP6ZM/Test1/thing/property/post";
 const char *devSubTopic[] = {"$sys/xX6gucP6ZM/Test1/thing/property/set"};
 unsigned char *dataPtr = NULL;
